@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OutfitFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/editText_outfit_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="83dp"
+        android:ems="10"
+        android:hint="name"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_one"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_outfit_one"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="41dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_brand"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_size"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_outfit_A" />
+
+    <TextView
+        android:id="@+id/textView_outfit_image_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_color_three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_item_two"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_color_two" />
+
+    <TextView
+        android:id="@+id/textView_outfit_item"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="26dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_size_two"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_image"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_brand"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_size" />
+
+    <TextView
+        android:id="@+id/textView_outfit_color_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="33dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_image_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_size_two"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_image" />
+
+    <TextView
+        android:id="@+id/textView_outfit_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_brand_two"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_size_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_brand" />
+
+    <TextView
+        android:id="@+id/textView_outfit_brand_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="23dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_three"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_item_two"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_two" />
+
+    <TextView
+        android:id="@+id/textView_outfit_image"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_color_two"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_item"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_color" />
+
+    <TextView
+        android:id="@+id/textView_outfit_color"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="191dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_image"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_size"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_outfit_size"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginBottom="42dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_item"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_color"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_one"
+        app:layout_constraintTop_toBottomOf="@+id/button_outfit_search" />
+
+    <TextView
+        android:id="@+id/textView_outfit_brand"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="11dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="23dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_two"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_item"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_one" />
+
+    <TextView
+        android:id="@+id/textView_outfit_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_brand_three"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_size_three"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_brand_two" />
+
+    <TextView
+        android:id="@+id/textView_outfit_size_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_item_two"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_color_two"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_two"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_item" />
+
+    <TextView
+        android:id="@+id/textView_outfit_item_two"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="23dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_size_three"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_image_two"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_brand_two"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_size_two" />
+
+    <Button
+        android:id="@+id/button_outfit_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="29dp"
+        android:backgroundTint="#FEE69E"
+        android:text="Create"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/textView_outfit_item_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_item_three" />
+
+    <Button
+        android:id="@+id/button_outfit_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="82dp"
+        android:layout_weight="1"
+        android:backgroundTint="#FEE69E"
+        android:text="Search"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_outfit_size_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginBottom="31dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_item_three"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_color_three"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_item_two" />
+
+    <TextView
+        android:id="@+id/textView_outfit_color_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="29dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_outfit_image_three"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_size_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_image_two" />
+
+    <TextView
+        android:id="@+id/textView_outfit_brand_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="90dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_item_three"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_three" />
+
+    <TextView
+        android:id="@+id/textView_outfit_item_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toTopOf="@+id/button_outfit_add"
+        app:layout_constraintEnd_toStartOf="@+id/textView_outfit_image_three"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_brand_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_size_three" />
+
+    <TextView
+        android:id="@+id/textView_outfit_image_three"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="93dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_outfit_item_three"
+        app:layout_constraintTop_toBottomOf="@+id/textView_outfit_color_three" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

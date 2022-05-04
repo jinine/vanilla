@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">fashion_app</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="build_a_new_outfit">Build a new outfit</string>
+    <string name="add_a_new_item">add a new item</string>
+    <string name="nameRequirement">Please input name.</string>
+    <string name="shirt">shirt</string>
+    <string name="textview">TextView</string>
+    <string name="pants">pants</string>
+    <string name="shoes">shoes</string>
+</resources>
